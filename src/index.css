@@ -1,1 +1,27 @@
+@font-face{
+    font-family: Roboto;
+    src: url('../src/assets/fonts/Roboto-Regular.ttf');
+    font-weight: 400;
+}
+@font-face{
+    font-family: Roboto;
+    src: url('../src/assets/fonts/Roboto-Medium.ttf');
+    font-weight: 500;
+}
+@font-face{
+    font-family: Roboto;
+    src: url('../src/assets/fonts/Roboto-SemiBold.ttf');
+    font-weight: 600;
+}
+@font-face{
+    font-family: Roboto;
+    src: url('../src/assets/fonts/Roboto-Bold.ttf');
+    font-weight: 700;
+}
+
+
 @import "tailwindcss";
+
+@theme{
+    --font-roboto: Roboto,'sans-serif';
+}

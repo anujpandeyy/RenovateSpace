@@ -5,7 +5,7 @@ const NavBar = () => {
         <>
             <div className='flex justify-between'>
                 <h1 className='text-2xl font-bold'>Anuj Industries</h1>
-                <ul className='flex space-x-5 text-lg'>
+                <ul className='flex space-x-5 text-lg font-roboto'>
                     <li ><a className='hover:font-semibold hover:text-yellow-600' href="/">Home</a></li>
                     <li><a className='hover:font-semibold hover:text-yellow-600' href="/">About</a></li>
                     <li><a className='hover:font-semibold hover:text-yellow-600' href="/">Services</a></li>
